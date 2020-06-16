@@ -1,0 +1,27 @@
+.user-profile-card__datas__data {
+	position: relative;
+	min-width: 10em;
+	height: 4.5em;
+	margin: 1em;
+}
+
+.user-profile-card__datas__data__barra-vertical {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0.5em;
+	height: 4.5em;
+	background-color: #f50057;
+}
+
+.user-profile-card__datas__data__name {
+	position: absolute;
+	top: 0;
+	left: 0.8em;
+}
+
+.user-profile-card__datas__data__value {
+	position: absolute;
+	bottom: 0;
+	left: 1em;
+}

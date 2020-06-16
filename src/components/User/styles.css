@@ -1,0 +1,44 @@
+.user {
+	min-width: 250px;
+	min-height: 300px;
+	background-color: #262626;
+	border-radius: 0.5em;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin: 1.3em;
+	padding: 1em;
+	cursor: pointer;
+	transition: transform 0.3s linear;
+}
+
+.user:hover {
+	transform: scale(1.05);
+	filter: brightness(90%);
+}
+
+.user__body {
+	display: flex;
+	flex-direction: column;
+	padding: 12px 0;
+}
+
+.user__body__avatar {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.user__body__name,
+.user__body__username,
+.user__body__language {
+	line-height: 30px;
+	overflow: hidden;
+}
+
+.user__body__name {
+	margin-top: 8px;
+}
+
+.user__body__username {
+	color: #808080;
+	font-weight: 500;
+}

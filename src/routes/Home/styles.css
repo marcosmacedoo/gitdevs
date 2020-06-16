@@ -1,0 +1,12 @@
+.main {
+	height: calc(100vh - 70px);
+}
+
+.input-search {
+	margin-top: 2em;
+	width: 18.75em;
+}
+
+.container-message-initial {
+	height: 85%;
+}
