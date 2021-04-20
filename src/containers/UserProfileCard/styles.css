@@ -46,6 +46,10 @@
 	min-height: 100%;
 }
 
+.user-profile-card__datas h3 {
+	color: gray;
+}
+
 .user-profile-card__datas__column {
 	height: 100%;
 	width: 100%;
